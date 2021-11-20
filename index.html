@@ -7,12 +7,26 @@
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+    crossorigin="anonymous"></script>
+
 
 </head>
 
 <body>
 
-  <h1 id="title">Drum Kit</h1>
+  <div class="main">
+    <br>
+    <h1 id="title">Drum Kit</h1>
   <div class="set" onmouseover="mousehover_in(this)" onmouseout="mousehover_out(this)">
     <button class="w drum">w</button>
     <button class="a drum">a</button>
@@ -24,6 +38,67 @@
   </div>
 
   <p id="hover-text" class="hover"></p>
+  </div>
+
+  <section id="items">
+
+    <h2>Buy your drum kit here !</h2>
+    <p>Simple and affordable price for you .</p>
+
+
+  
+  <div class="row">
+
+  <div class="items-col col-lg-4 col-md-6">
+    <div class="card">
+      <div class="card-header">
+        <h3>Bass drum</h3>
+      </div>
+      <div class="card-body">
+        <h2>$90</h2>
+        <p>Stainless steel</p>
+        <p>Thin play sheet</p>
+        <p>Free Stand</p>
+        <button type="button" class="btn btn-lg btn-block btn-outline-primary">Buy</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="items-col col-lg-4 col-md-6">
+    <div class="card">
+      <div class="card-header">
+        <h3>Crash Cymbal</h3>
+      </div>
+      <div class="card-body">
+        <h2>$49</h2>
+        <p>Brass made</p>
+        <p>Rust Free</p>
+        <p>Loud sound</p>
+        <button type="button" class="btn btn-lg btn-block btn-primary">Buy</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="items-col col-lg-4 col-md-12">
+    <div class="card">
+      <div class="card-header">
+        <h3>Snare Drum</h3>
+      </div>
+      <div class="card-body">
+        <h2>$99</h2>
+        <p>Electric</p>
+        <p>Fine finishing</p>
+        <p>Treble adjustable</p>
+        <button type="button" class="btn btn-lg btn-block btn-primary">Buy</button>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  </section>
+
+
 
   <div class="social">
     <center>
@@ -34,15 +109,11 @@
       <a href="#" class="fa fa-youtube"></a> &emsp;
       <a href="#" class="fa fa-linkedin"></a>
     </center>
-
+    <br>
     <p><b> <i> Play the beats with passion !! </i> </b></p>
+    <p>Made with ❤️ by Harsh.</p>
   </div>
-  <br>
   <script src="index.js"></script>
-
-  <footer>
-    Made with ❤️ by Harsh.
-  </footer>
 </body>
 
 </html>
